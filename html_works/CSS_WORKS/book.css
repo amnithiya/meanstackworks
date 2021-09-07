@@ -1,0 +1,45 @@
+.parent{
+    width: 608px;
+    height: 403px;
+background-color: white;
+display: flex;
+}
+
+.img1{
+    border: 1px solid black;
+    width: 194.609px;
+    height: 281px;
+}
+
+
+
+.book1{
+    width: 213px;
+    height: 281px;
+    
+    
+}
+.book2{
+    width: 213px;
+    height: 281px;
+}
+.book2 img{
+    width: 170px;
+    height: 281px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.book3{
+
+    width: 213px;
+    height: 281px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.book4{
+    width: 213px;
+    height: 281px;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+}

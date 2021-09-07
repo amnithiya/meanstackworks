@@ -1,0 +1,16 @@
+.row{
+    border: 1px solid black;
+    background-color: cadetblue;
+    width: 400px;
+    height: 400px;
+}
+.col{
+    position: absolute;
+    top: 87px;
+    left: 102px;
+    border: 1px solid blanchedalmond;
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+
+}

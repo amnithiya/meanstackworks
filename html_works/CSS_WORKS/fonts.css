@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap');
+div{
+    border: 2px solid teal;
+    font-family: 'Rampart One', cursive;
+    background-color: turquoise;
+    width: 50%;
+}
+body{
+    background-color: violet;
+    background-image: cross-fade();
+    background-size: cover;
+}

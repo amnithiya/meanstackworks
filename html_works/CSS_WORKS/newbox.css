@@ -1,0 +1,158 @@
+.parent{
+    width: 550px;
+    height: 310px;
+    background-color: powderblue;
+    position: relative;
+
+}
+.box1{
+    border: 3px solid pink;
+    background-color: violet;
+    width: 100px;
+    height: 300px;
+}
+.box2{
+    border: 3px solid pink;
+    background-color:blue;
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 106px;
+    position: absolute;
+}
+
+.box3{
+    border: 3px solid pink;
+    background-color: brown;
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 212px;
+    position: absolute;
+}
+.box4{
+    border: 3px solid pink;
+    background-color: rgb(241, 10, 153);
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 318px;
+    position: absolute;
+
+}
+.box5{
+    border: 3px solid pink;
+    background-color: green;
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 424px;
+    position: absolute;
+
+}
+.parent1{
+    width: 550px;
+    height: 310px;
+    background-color: powderblue;
+    position: relative;
+
+}
+.box11{
+    border: 3px solid pink;
+    background-color: violet;
+    width: 100px;
+    height: 300px;
+}
+.box12{
+    border: 3px solid pink;
+    background-color:blue;
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 106px;
+    position: absolute;
+}
+
+.box13{
+    border: 3px solid pink;
+    background-color: brown;
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 212px;
+    position: absolute;
+}
+.box14{
+    border: 3px solid pink;
+    background-color: rgb(241, 10, 153);
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 318px;
+    position: absolute;
+
+}
+.box15{
+    border: 3px solid pink;
+    background-color: green;
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 424px;
+    position: absolute;
+
+}
+.parent2{
+    width: 550px;
+    height: 310px;
+    background-color: powderblue;
+    position: relative;
+    margin-left: 600px;
+    margin-top: -520px;
+
+}
+.box21{
+    border: 3px solid pink;
+    background-color: violet;
+    width: 100px;
+    height: 300px;
+}
+.box22{
+    border: 3px solid pink;
+    background-color:blue;
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 106px;
+    position: absolute;
+}
+
+.box23{
+    border: 3px solid pink;
+    background-color: brown;
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 212px;
+    position: absolute;
+}
+.box24{
+    border: 3px solid pink;
+    background-color: rgb(241, 10, 153);
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 318px;
+    position: absolute;
+
+}
+.box25{
+    border: 3px solid pink;
+    background-color: green;
+    width: 100px;
+    height: 300px;
+    margin-top: -306px;
+    margin-left: 424px;
+    position: absolute;
+
+}

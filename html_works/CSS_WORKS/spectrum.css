@@ -1,0 +1,120 @@
+h1{
+    
+    color: floralwhite;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+div{
+    border: 1px solid;
+    height: 119px;
+    width:83px;
+}
+.box1{
+    background-color: rgb(53,52,52);
+    margin-top: 40px;
+    margin-left: 88px;
+}
+.box2{
+    background-color: rgb(44,68,51);
+    margin-top: -120px;
+    margin-left: 188px;
+}
+.box3{
+    background-color:rgb(4,170,73);
+    margin-top: -120px;
+    margin-left: 288px;
+}
+.box4{
+    background-color: rgb(34,110,4);
+    margin-top: -120px;
+    margin-left: 388px;
+}
+.box5{
+    background-color: lightslategray;
+    margin-top: -121px;
+    margin-left: 489px;
+}
+
+.box6{
+    background-color: linen;
+    margin-top: -121px;
+    margin-left: 79px;
+}
+.box7{
+    background-color: mediumvioletred;
+    margin-top: -110px;
+    margin-left: 9px;
+}
+.box8{
+    background-color: olivedrab;
+    margin-top: -124px;
+    margin-left: 104px;
+}
+.box9{
+    background-color: tomato;
+    margin-top: -122px;
+    margin-left: 202px;
+}
+.box10{
+    background-color: yellowgreen;
+    margin-top: -122px;
+    margin-left: 296px;
+}
+.box11{
+    background-color: whitesmoke;
+    margin-top: -121px;
+    margin-left: 392px;
+}
+.box12{
+    background-color: teal;
+    margin-top: -121px;
+    margin-left: 483px;
+}
+.box13{
+    background-color: violet;
+    margin-top: -120px;
+    margin-left: 574px;
+}
+.box14{
+    background-color: palegreen;
+    margin-top: -137px;
+    margin-left: 1081px;
+}
+.box15{
+    background-color: plum;
+    margin-top: -120px;
+    margin-left: 94px;
+}
+
+.box16{
+    background-color: red;
+    margin-top: -8px;
+    margin-left:37px;
+}
+.box17{
+    background-color: royalblue;
+    margin-top: -243px;
+    margin-left: 190px;
+}
+.box18{
+    background-color: slateblue;
+    margin-top: -120px;
+    margin-left: 281px;
+}
+.box19{
+    background-color: salmon;
+    margin-top: -121px;
+    margin-left: 373px;
+}
+.box20{
+    background-color: springgreen;
+    margin-top: -122px;
+    margin-left: 466px;
+}
+.box21{
+    background-color: tan;
+    margin-top: -120px;
+    margin-left: 563px;
+}

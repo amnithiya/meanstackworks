@@ -1,0 +1,18 @@
+
+h1{
+    text-align: center;
+}
+body{
+    background-color: white;
+    text-align: center;
+    height: 1200px;
+}
+.logo{
+    text-align: center;
+    border-top: 20px;
+    border-left: 30%;
+    width: 30%;
+    margin-left: 33%;
+    border-color: black;
+    background-color: rgb(132, 191, 218);
+     }

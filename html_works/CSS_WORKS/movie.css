@@ -1,0 +1,47 @@
+.row{
+    
+    display: flex;
+    justify-content: space-evenly;
+      
+}
+.col{
+    width: 23%;
+}
+.col img{
+    border: 1px solid black;
+    width: 100px;
+    height: 450px;
+    border-top: 300px;
+    border-left: -320px;
+  
+}
+.row1{
+    border: 1px solid black;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+      
+}
+.col1{
+    width: 23%;
+}
+.col1 img{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}   
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 100px;
+}
