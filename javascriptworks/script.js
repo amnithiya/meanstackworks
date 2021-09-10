@@ -25,12 +25,12 @@
 
 
 
-
-var company="luminar technolab";
-var loc_name="kakkanad"
-console.log(company);
-console.log(loc_name);
-
-
 //age name
 // hai i am nam...age years old
+
+var age="20";
+var name="Nithiya"
+var about="I am Nithiya 20 years old";
+console.log("20");
+console.log("Nithiya");
+console.log("I am Nithiya 20 years old");
