@@ -49,6 +49,7 @@ function login(acno,password){
         console.log("invalid account number");
     }
 }
+login(1001,"userone")
 
 //list transactions off acc=1001
 console.log(accounts[1001].transactions);
