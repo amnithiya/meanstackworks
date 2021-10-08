@@ -1,4 +1,4 @@
-vartodos=[
+var todos=[
     {
       "userId": 1,
       "id": 1,
@@ -1200,4 +1200,25 @@ vartodos=[
       "completed": false
     }
   ]
-  
+  let data_report={};
+  for(let todo of todos){
+    if(todo.userId in data_report){
+      data_report[todo.userId].total+=1;
+      if(todo.completed==true){
+        data_report[todo.userId].finished+=1;
+      }
+      else{
+        data_report[todo.userId].pending+-1;
+      }
+    }
+    else{
+      data_report[todo.userId]={total:1,finished:0,pending:0};
+    }
+    if(todo.completed==true){
+      data_report[todo.userId]={total:1,finished:1,pending:0};
+    }
+    else{
+      data_report[todo.userId]={total:1,finished:0,pending:1};
+    }
+  }
+  console.log(data_report);

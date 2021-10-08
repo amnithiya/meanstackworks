@@ -6,7 +6,7 @@ class bank{
         this.balance=min_balance
     }
     deposite(amount){
-          this.balance =+amount
+          this.balance +=amount
           console.log(`your acnt ${this.acno} has been credited with amnt ${amount} aval bal ${this.balance}`);
     }
     withdrawal(amount){
@@ -24,5 +24,5 @@ class bank{
 
 var obj1=new bank()
 obj1.createAccount("ram",100,"savings",3000)
-
+obj1.withdrawal(6000)
 obj1.deposite(3000)
