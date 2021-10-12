@@ -75,7 +75,7 @@ class Bank {
         if (this.validateAccountNumber(to_accno)) {
             let user = this.session["user"]
             let bal = this.balanceEnquiry()
-            console.log("balance",bal);
+            console.log("balance", bal);
             if (bal > amount) {
                 this.accounts[user].balance -= amount
                 this.accounts[to_accno].balance += amount
@@ -95,12 +95,27 @@ class Bank {
         let user = this.session["user"]
         console.log(this.accounts[user].transactions);
     }
+    getTransactions() {
+        let transaction_history = []
+        for (let account in this.accounts) {
+            transaction_history.push(this.accounts[account].transactions)
+        }
+        return transaction_history
+    }
     creditTransactions() {
-        let user = this.session["user"]
-        console.log(this.accounts[user]);
+        let transactions = this.getTransactions()
+        for (let trans of transactions) {
+            for (let tran of trans) {
+                if (tran.to == this.session["user"]) {
+                    console.log(tran);
+                }
+            }
+
+        }
+
     }
 }
 var obj = new Bank()
 var user = obj.authenticate(1002, "usertwo")
-obj.balanceEnquiry()
-obj.fundTransfer(1001, 5000)
+//obj.balanceEnquiry()
+obj.creditTransactions()
